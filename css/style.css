@@ -1,0 +1,92 @@
+.icon-cal{
+    width: 25px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.card-img-top{
+    height: 260px;
+    
+}
+.arrow{
+    width: 50px;
+    cursor: pointer;
+}
+
+.modal-img{
+    width: 380px !important;
+    
+}
+.modal-class{
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+.price-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 10px;
+}
+.btn-close{
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    z-index: 1;
+    padding: 1rem 1rem;
+    opacity: 1;
+}
+.left-modal{
+    background-color: #FEF7F7 !important;
+    border-color: #EB5757 !important;
+}
+.price{
+    border-color: #03a20b00 !important;
+}
+.price1{
+    color: #03A20A;
+    font-weight: 600 !important;
+}
+.price2{
+    color: #F2994A;
+    font-weight: 600 !important;
+}
+.price3{
+    color: #EB5757;
+    font-weight: 600 !important;
+}
+.accuracy{
+    font-size: 14px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 90px;
+    right: 140px;
+    background-color: #EB5757;
+    border-radius: 7px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .modal-class{
+        grid-template-columns: repeat(1, 1fr) !important;
+        padding: 0px !important;
+        gap: 15px !important;
+    }
+    .card-img-top{
+        height: 100% !important;
+    }
+    .modal-img{
+        width: 280px !important;
+    }
+    .price-cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 10px;
+    }
+    .accuracy{
+        top: 725px;
+        right: 43px;
+        position:static;
+        
+    }
+    .box-box{
+        padding: 0px !important;
+    }
+}
